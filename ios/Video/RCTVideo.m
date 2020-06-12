@@ -1693,8 +1693,8 @@ static int const RCTVideoUnset = -1;
   _restoreUserInterfaceForPIPStopCompletionHandler = completionHandler;
 }
 #endif
-//-(void)onProgressLoad:(NSString *)progressName status:(NSString *)error
-//{
+-(void)onProgressLoad:(NSString *)progressName status:(NSString *)error
+{
 //    NSLog(@"Sigma DRM: %@ - %@", progressName, error);
-//}
+}
 @end
